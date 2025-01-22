@@ -12,7 +12,7 @@ export default {
 		colors: {
 		  primary: {
 			DEFAULT: '#A31D1D', 
-			foreground: '#ffffff', 
+			foreground: 'color: black;', 
 		  },
 		  background: '#A31D1D', 
 		  foreground: '#ffffff',  
