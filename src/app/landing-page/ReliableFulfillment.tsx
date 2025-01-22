@@ -51,9 +51,9 @@ const items = [
 export const ReliableFulfillment = () => {
     return (
 <div className="px-5 py-10 gap-6 md:px-20 md:py-24 mt-20 bg-[#F8F2F2] flex flex-col items-center justify-center">
-  <div className="flex flex-col md:flex-row justify-between gap-7">
-    <div className="w-full md:w-[60%]">
-      <h2 className="font-bold text-3xl sm:text-4xl md:text-5xl text-center md:text-left">
+  <div className="flex flex-col md:flex-row items-center justify-between gap-7">
+    <div className="w-full md:w-[60%] flex flex-col gap-8 items-center h-full justify-center">
+      <h2 className="font-bold text-3xl sm:text-4xl md:text-5xl leading-[2.5rem] text-center md:text-left">
         Fulfillment for Every Need; Reliable Solutions for a Wide Range of Products
       </h2>
       <p className="font-normal text-lg sm:text-xl leading-normal mt-2 pr-0 md:pr-10 text-center md:text-left">
