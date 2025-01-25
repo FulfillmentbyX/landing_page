@@ -111,5 +111,4 @@ const UtilityButton = ({
   />
 );
 
-// eslint-disable-next-line react-refresh/only-export-components
 export { ShadCNButton, Button, buttonVariants, AuthFormButton, UtilityButton };
