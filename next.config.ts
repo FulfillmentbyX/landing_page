@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   async rewrites() {
     return [
       // Example of a custom rewrite:
-      { source: '/*', destination: '/index.html' },
+      { source: '/', destination: '/index.html' },
     ];
   },
 };
