@@ -4,6 +4,10 @@ import Electronics from "@/assets/images/Electronics.png";
 import Footwear from "@/assets/images/footwear.png";
 import Mic from "@/assets/images/mic.png";
 import Top from "@/assets/images/Shirt.png"
+import Cosmetics from "@/assets/images/Cosmetic.png";
+import Books from "@/assets/images/books.png"
+import Home from "@/assets/images/decor.png"
+import Toy from "@/assets/images/Toy.png"
 
 const items = [
     {
@@ -11,11 +15,7 @@ const items = [
         imgUrl: Top,
         text: "Clothing and apparel"
     },
-    {
-        id: 2,
-        imgUrl: Footwear,
-        text: "Footwear"
-    },
+  
     {
         id: 3,
         imgUrl: Electronics,
@@ -27,25 +27,30 @@ const items = [
         text: "Food and Beverages"
     },
     {
-        id: 1,
-        imgUrl: Top,
-        text: "Clothing and apparel"
+        id: 5,
+        imgUrl: Cosmetics,
+        text: "Cosmetics & Skincare"
     },
     {
-        id: 2,
-        imgUrl: Footwear,
-        text: "Footwear"
+        id: 6,
+        imgUrl: Books,
+        text: "Books & Stationery"
     },
     {
-        id: 3,
-        imgUrl: Electronics,
-        text: "Electronics & Gadgets"
+        id: 7,
+        imgUrl: Home,
+        text: "Home Decor"
     },
     {
         id: 4,
-        imgUrl: Mic,
-        text: "Food and Beverages"
+        imgUrl: Toy,
+        text: "Toys & Games"
     },
+    {
+      id: 2,
+      imgUrl: Footwear,
+      text: "Footwear"
+  },
  
 ]
 export const ReliableFulfillment = () => {
@@ -69,7 +74,7 @@ export const ReliableFulfillment = () => {
     {items.map((item) => (
       <div
         key={item.id}
-        className="w-full sm:w-[288px] h-[156px] bg-white border border-black rounded-2xl px-5 flex items-center justify-center gap-4"
+        className="w-full sm:w-[288px] md:h-[156px] h-[84px] bg-white border border-black rounded-2xl px-5 flex items-center justify-center gap-4"
       >
         <Image src={item.imgUrl} alt="" className="" />
         <p className="text-lg sm:text-xl">{item.text}</p>

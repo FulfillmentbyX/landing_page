@@ -3,6 +3,7 @@ import FaceBook from "@/assets/images/Facebook.png";
 import Linkedin from "@/assets/images/LinkedIn.png";
 import Youtube from "@/assets/images/Youtube.png";
 import Image from "next/image";
+import FBX from "@/assets/images/FbxLogo.png";
 
 const socials = [
   {
@@ -32,7 +33,11 @@ export const Footer = () => {
     <div className="px-5 py-10 md:px-16 md:py-20 w-full h-auto bg-white">
       <div className="flex flex-col md:flex-row w-full justify-between gap-10">
         <div className="flex flex-col gap-5">
-          <h3 className="text-2xl md:text-3xl font-bold">FBX</h3>
+        <Image
+            alt="fbx-logo"
+            src={FBX}
+            className="w-[60px] h-[28px] md:w-[80px] md:h-[40px] mt-5"
+          />
           <p className="text-lg md:text-xl font-medium">
             Fulfillment made simple.
           </p>
@@ -55,27 +60,29 @@ export const Footer = () => {
                 </div>
               </a>
             ))}
+             
           </div>
+          <hr className="border block md:hidden invert border-black my-8 md:my-11" />
         </div>
 
         <div className="flex flex-col md:flex-row gap-10 pb-10 justify-between">
           <div className="flex flex-col gap-2">
-            <h3 className="text-lg md:text-xl font-medium">Products</h3>
+            <h3 className="text-lg md:text-xl font-semibold">Products</h3>
             <p>Storehouse</p>
             <p>Fulfilment</p>
             <p>Payment</p>
           </div>
 
           <div className="flex flex-col gap-2">
-            <h3 className="text-lg md:text-xl font-medium">Contacts</h3>
+            <h3 className="text-lg md:text-xl font-semibold">Contacts</h3>
             <p>Accra, Ghana</p>
             <p>info@fulfillmentbyx.com</p>
-            <p>+233 555 6854 7654</p>
+            <p>0539376774</p>
           </div>
         </div>
       </div>
 
-      <hr className="border border-black my-8 md:my-11" />
+      <hr className="border border-black my-8 md:my-11 md:block hidden" />
 
       <div className="flex flex-col md:flex-row justify-between gap-5">
         <div className="flex flex-col md:flex-row gap-4 md:gap-8">
