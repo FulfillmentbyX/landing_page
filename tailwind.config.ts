@@ -1,6 +1,7 @@
-import defaultTheme from "tailwindcss/defaultTheme";
-import { Config } from "tailwindcss";
+import type { Config } from "tailwindcss";
+import tailwindcssAnimate from 'tailwindcss-animate';
 
+/** @type {Config} */
 export default {
   darkMode: ["class"],
   content: [
@@ -18,10 +19,7 @@ export default {
         background: "#A31D1D",
         foreground: "#ffffff",
       },
-      fontFamily: {
-        sans: ["Inter", ...defaultTheme.fontFamily.sans],
-      },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [tailwindcssAnimate],
 } satisfies Config;
