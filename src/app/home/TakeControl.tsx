@@ -8,7 +8,7 @@ export const TakeControl = () => {
       <div className="relative">
       <Image src={Bg} alt="" className="w-full h-[291px] md:h-[600px]" />
       
-      <div className="absolute left-0 top-1/2 transform -translate-y-1/2 text-white px-5 sm:px-10 md:px-14">
+      <div className="absolute left-0 top-1/2 pt-7 transform -translate-y-1/2 text-white px-5 sm:px-10 md:px-14">
         <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl mb-5 sm:mb-7 md:mb-10">
           Take control of your fulfilment
         </h1>
