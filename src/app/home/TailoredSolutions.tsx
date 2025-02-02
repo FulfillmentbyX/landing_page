@@ -31,7 +31,6 @@ export const TailoredSolutions = () => {
                   alt="store"
                   className="w-full md:rounded-b-3xl object-cover"
                 />
-                <div className="absolute inset-0 bg-black/30 md:bg-transparent" />
               </div>
             </div>
 
@@ -117,7 +116,7 @@ export const TailoredSolutions = () => {
 
             <Button
             title="Book a demo"
-            className="rounded-3xl text-white block  md:hidden w-32 md:w-40 h-10 md:h-[54px] text-sm md:text-base"
+            className="rounded-3xl text-white flex justify-center items-center  md:hidden w-32 md:w-40 h-10 md:h-[54px] text-sm md:text-base"
           />
           </div>
         </div>

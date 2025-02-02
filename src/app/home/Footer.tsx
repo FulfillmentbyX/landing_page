@@ -33,13 +33,13 @@ export const Footer = () => {
     <div className="px-5 py-10 md:px-16 md:py-20 w-full h-auto bg-white">
       <div className="flex flex-col md:flex-row w-full justify-between gap-10">
         <div className="flex flex-col gap-5">
-        <Image
+          <Image
             alt="fbx-logo"
             src={FBX}
             className="w-[60px] h-[28px] md:w-[80px] md:h-[40px] mt-5"
           />
           <p className="text-lg md:text-xl font-medium">
-            Fulfillment made simple.
+            Fulfilling all your needs
           </p>
           <div className="flex gap-4">
             {socials.map((social) => (
@@ -50,17 +50,14 @@ export const Footer = () => {
                 rel="noopener noreferrer"
               >
                 <div className="w-8 h-8 md:w-10 md:h-10 cursor-pointer bg-[#424242] rounded-full flex items-center justify-center">
-                 
                   <Image
                     src={social.imgUrl}
                     alt=""
                     className="w-5 h-5 md:w-6 md:h-6"
                   />
-                 
                 </div>
               </a>
             ))}
-             
           </div>
           <hr className="border block md:hidden invert border-black my-8 md:my-11" />
         </div>
@@ -76,7 +73,12 @@ export const Footer = () => {
           <div className="flex flex-col gap-2">
             <h3 className="text-lg md:text-xl font-semibold">Contacts</h3>
             <p>Accra, Ghana</p>
-            <p>info@fulfillmentbyx.com</p>
+            <a
+              href="mailto:support@fulfillmentbyx.com"
+              className="hover:text-red-600"
+            >
+              support@fulfillmentbyx.com
+            </a>
             <p>0539376774</p>
           </div>
         </div>

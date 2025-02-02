@@ -216,6 +216,7 @@ export const HowItWorks = () => {
                   <Image
                     src={content.imageSrc || "/placeholder.svg"}
                     alt="Section illustration"
+                    className="md:w-[1020px] w-full"
                   />
                 </div>
                 <div className="py-5 px-5 gap-6 md:px-16 flex flex-col mt-10 md:py-20 bg-[#F8F2F2] rounded-2xl h-auto w-full">
@@ -259,10 +260,12 @@ export const HowItWorks = () => {
                 With FBX, cross-border e-commerce becomes simpler, faster, and
                 more profitable.
               </p>
+              <a  href="https://docs.google.com/forms/d/e/1FAIpQLSc3pfzi-Gwz41gRJTXKeDbfbinCjsOiRYxgfUJXc8tFyWGSqg/viewform?embedded=true" target="_blank">
               <Button
                 title="Try it Now"
                 className="rounded-3xl md:w-[200px] w-[125px] md:bg-white hover:bg-white text-white md:text-[#A83E45] sm:w-[244px] my-3 h-[40px] sm:h-[50px]"
               />
+              </a>
             </div>
             <div className="w-full hidden md:block md:w-[50%] h-full">
               <Image

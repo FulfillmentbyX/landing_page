@@ -42,7 +42,7 @@ const items = [
         text: "Home Decor"
     },
     {
-        id: 4,
+        id: 8,
         imgUrl: Toy,
         text: "Toys & Games"
     },
