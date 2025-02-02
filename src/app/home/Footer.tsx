@@ -30,7 +30,7 @@ const socials = [
 
 export const Footer = () => {
   return (
-    <div className="px-5 py-10 md:px-16 md:py-20 w-full h-auto bg-white">
+    <div id="footer" className="px-5 py-10 md:px-16 md:py-20 w-full h-auto bg-white">
       <div className="flex flex-col md:flex-row w-full justify-between gap-10">
         <div className="flex flex-col gap-5">
           <Image

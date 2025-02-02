@@ -1,9 +1,15 @@
-// "use client";
+"use client";
 import { Button } from "@/components/ui/button";
 import FBX from "@/assets/images/FbxLogo.png";
 import Image from "next/image";
 
 export const Header = () => {
+  const scrollToFooter = () => {
+    const footer = document.getElementById("footer");
+    if (footer) {
+      footer.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className="bg-white">
       <div className="px-5 py-2 md:px-16 flex items-center justify-between flex-wrap shadow md:shadow-none">
@@ -28,14 +34,11 @@ export const Header = () => {
           <button className="border-2 cursor-pointer border-red-700 rounded-3xl w-20 md:w-[116px] h-10 md:h-[54px] text-sm md:text-base font-medium text-red-700">
             Log In
           </button>
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSc3pfzi-Gwz41gRJTXKeDbfbinCjsOiRYxgfUJXc8tFyWGSqg/viewform?embedded=true"
-            target="_blank"
-          >
-            <p className="text-base md:text-xl hidden md:block font-medium hover:text-red-700 cursor-pointer">
+         
+            <p className="text-base md:text-xl hidden md:block font-medium hover:text-red-700 cursor-pointer" onClick={scrollToFooter}>
               Contact us
             </p>
-          </a>
+         
         </div>
       </div>
       <hr className="border-gray-300 mt-4 hidden md:block" />
