@@ -58,7 +58,7 @@ export const FrequentlyAskedQuestions: React.FC = () => {
   const faqData: FAQ[] = [
     {
       question: "What is FBX?",
-      answer: "Lorem ipsum dolor sit amet consectetur. A facilisis vestibulum faucibus nulla amet erat pellentesque habitasse.",
+      answer: "FBX solution allows ecommerce business owners  access to flexible storage, monitor and manage inventory, process and fulfill orders, manage deliveries and returns, and receive and reconcile cash on delivery",
     },
     {
       question: "What is Fulfillment?",
@@ -70,9 +70,9 @@ export const FrequentlyAskedQuestions: React.FC = () => {
     },
     {
       question:
-        "Is there any way I can book a storehouse to keep my livestock?",
+        "Is there any way I can book a storehouse to keep my Products?",
       answer:
-        "Yes, our platform allows you to book storage spaces for livestock securely.",
+        "Yes, our platform allows you to book storage spaces for Products securely.",
     },
   ];
 

@@ -1,9 +1,7 @@
-/* Import Inter font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Raleway:wght@400;500;600&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 @layer base {
   :root {
@@ -73,9 +71,21 @@
 }
 
 @layer base {
- 
   body {
-    @apply text-black; /* Apply text color globally */
+    @apply text-black;
+    p {
+      font-family: 'Raleway', sans-serif;
+    }
+  }
+  .whatsapp-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
   }
 
+  .whatsapp-widget img {
+    width: 30px;
+    height: 30px;
+  }
 }

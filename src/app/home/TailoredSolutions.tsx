@@ -42,7 +42,7 @@ export const TailoredSolutions = () => {
               />
               <div className="py-10 flex flex-col gap-5 px-9 z-10">
                 <h2 className="font-bold text-3xl">Payment services</h2>
-                <p className="font-light text-xl leading-relaxed">
+                <p className="font-normal text-xl leading-relaxed">
                   At FulfillmentbyX, we provide a cutting-edge e-commerce order
                   fulfillment platform that empowers African vendors to
                   effortlessly sell and deliver their products in Ghana.
@@ -56,7 +56,7 @@ export const TailoredSolutions = () => {
                 className="w-full h-[500px] object-cover rounded-3xl"
               />
               <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-end gap-5 px-9 py-10 bg-gradient-to-t from-black/60 to-transparent text-white">
-                <h2 className="font-bold text-3xl">Payment services</h2>
+                <h2 className="font-bold text-3xl">Order  Fulfilment</h2>
                 <p className="font-light text-xl leading-relaxed">
                   At FulfillmentbyX, we provide a cutting-edge e-commerce order
                   fulfillment platform that empowers African vendors to
@@ -83,7 +83,11 @@ export const TailoredSolutions = () => {
 
       <div className="md:px-16 md:py-20 px-5 py-10 h-auto w-full bg-[#EEE4E1] md:bg-[#A83E45] text-black md:text-white flex flex-col md:flex-row justify-center gap-10 md:gap-20">
         <div className="w-full hidden  md:w-[510px] md:flex justify-center">
-          <Image src={Man} alt="man" className="w-full h-auto  md:h-[600px] md:w-[588px] rounded-[24px]" />
+          <Image
+            src={Man}
+            alt="man"
+            className="w-full h-auto  md:h-[600px] md:w-[588px] rounded-[24px]"
+          />
         </div>
         <div className="flex flex-col h-auto justify-center w-full md:w-[60%] gap-7">
           <div className="flex flex-col gap-4">
@@ -115,9 +119,9 @@ export const TailoredSolutions = () => {
             </p>
 
             <Button
-            title="Book a demo"
-            className="rounded-3xl text-white flex justify-center items-center  md:hidden w-32 md:w-40 h-10 md:h-[54px] text-sm md:text-base"
-          />
+              title="Book a demo"
+              className="rounded-3xl text-white flex justify-center items-center  md:hidden w-32 md:w-40 h-10 md:h-[54px] text-sm md:text-base"
+            />
           </div>
         </div>
       </div>

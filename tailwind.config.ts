@@ -11,6 +11,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        raleway: ["Raleway", "sans-serif"],
+      },
       colors: {
         primary: {
           DEFAULT: "#A31D1D",

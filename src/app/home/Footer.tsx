@@ -39,7 +39,7 @@ export const Footer = () => {
             className="w-[60px] h-[28px] md:w-[80px] md:h-[40px] mt-5"
           />
           <p className="text-lg md:text-xl font-medium">
-            Fulfilling all your needs
+            Fulfilling all your needs
           </p>
           <div className="flex gap-4">
             {socials.map((social) => (
@@ -96,6 +96,24 @@ export const Footer = () => {
           © 2025 FBX. All rights reserved. Designed and built by FBX.
         </div>
       </div>
+
+      {/* WhatsApp Floating Widget */}
+      <a
+        href="https://wa.me/+233539376774?text=Hello%20I%20need%20assistance"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="whatsapp-widget"
+      >
+        <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center">
+          <Image
+            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+            alt="WhatsApp"
+            width={30}
+            height={30}
+          />
+        </div>
+      </a>
     </div>
   );
 };
+
