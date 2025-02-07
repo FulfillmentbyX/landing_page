@@ -19,9 +19,7 @@ export const TailoredSolutions = () => {
               <div className="py-10 px-9 flex flex-col gap-5 z-10 flex-grow">
                 <h2 className="font-bold text-3xl">Storehouse booking</h2>
                 <p className="text-xl font-light leading-relaxed">
-                  At FulfillmentbyX, we provide a cutting-edge e-commerce order
-                  fulfillment platform that empowers African vendors to
-                  effortlessly sell and deliver their products in Ghana.
+                  At FulfillmentbyX, we provide a Real-time availability and automated reservations and booking of storage spaces.
                 </p>
               </div>
 
@@ -43,9 +41,7 @@ export const TailoredSolutions = () => {
               <div className="py-10 flex flex-col gap-5 px-9 z-10">
                 <h2 className="font-bold text-3xl">Payment services</h2>
                 <p className="font-normal text-xl leading-relaxed">
-                  At FulfillmentbyX, we provide a cutting-edge e-commerce order
-                  fulfillment platform that empowers African vendors to
-                  effortlessly sell and deliver their products in Ghana.
+                  At FulfillmentbyX, Multi-payment methods, in-app wallet, and automated invoicing as well as transaction monitoring and management.
                 </p>
               </div>
             </div>
